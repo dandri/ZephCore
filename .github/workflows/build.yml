@@ -2,7 +2,7 @@ name: build firmware
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "zcpfs" ]
 
 # A release run deletes and re-creates a tag, then force-pushes the
 # firmware-dist branch. Two overlapping runs would race on both, and the loser
